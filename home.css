@@ -21,4 +21,85 @@ div {
   text-align: right;
 }
 
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
 
+/* Logo styling */
+.navbar img {
+  width: 120px;
+  height: auto;
+}
+
+/* Navigation styling */
+.navbar ul {
+  list-style-type: none; /* Remove bullet points */
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+/* List item styling */
+.navbar li {
+  margin-right: 20px; /* Add some spacing between list items */
+}
+
+/* Link styling */
+.navbar a {
+  text-decoration: none;
+  color: black; /* Set font color to black */
+  transition: color 0.3s; /* Smooth transition for color change */
+}
+
+/* Style links on hover */
+.navbar a:hover {
+  color: #353535; /* Change font color to gray on hover */
+}
+
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 800px;
+  text-align: center; 
+}
+
+.icon-container {
+  display: flex;
+  justify-content: space-around; 
+  margin-bottom: 20px;
+}
+
+.icon-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  flex: 1; 
+  background-color: #fff;
+}
+
+.icon {
+  font-size: 4rem; 
+  margin-bottom: 10px; 
+}
+
+.content-container {
+  margin-top: 50px;
+  text-align: center; /* Align content to the left */
+  background-color: #fff;
+}
+
+.content-container ul {
+  list-style: none; /* Remove bullet points */
+  padding: 0;
+  margin: 0;
+}
+
+.content-container ul li {
+  margin-bottom: 10px;
+}
